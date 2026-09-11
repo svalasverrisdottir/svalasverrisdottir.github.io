@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Svala Sverrisdóttir</title>
+    <link rel="stylesheet" href="styles.css?version=1">
+  </head>
+  <body class="grid grid-sm">
+    <header class="col-12">
+      <h1>Svala Sverrisdóttir</h1>
+    </header>
+    <main class="col-12 grid grid-sm">
+      <div class="section col-9 col-sm-12">
+        <h2>About me</h2>
+        <p>
+          I am a second year graduate student in the mathematics department at UC Berkeley
+          advised by <a href="https://math.berkeley.edu/~bernd/">Bernd Sturmfels</a>.
+          I passed my Qualifying Exams in November 2023, in Combinatorics, Metric Algebraic Geometry and Commutative Algebra.
+          I graduated with a B.S. degree in mathematics with honors from the University of Iceland in spring 2022.
+        </p>
+        <p>
+          My mathematical interests lie in computational algebraic geometry, algebra and combinatorics.
+        </p>
+        <p>
+          You can reach me by my email at <a href = "mailto: svala@math.berkeley.edu">svala@math.berkeley.edu</a>
+          and in my office at 869 Evans Hall.
+        </p>
+      </div>
+      <img class="col-3 col-sm-12" src="images/svala.png" alt="Me"/>
+      <div class="section research col-12">
+        <h2>Research</h2>
+        <ul>
+          <li>
+            <a href="https://arxiv.org/abs/2310.15474">Coupled Cluster Degree of the Grassmannian</a> (with Viktoriia Borovik and Bernd Sturmfels), 13pp, submitted to <em>Journal of Symbolic Computation</em>.
+          </li>
+          <li>
+            <a href="https://arxiv.org/abs/2308.05258">Algebraic Varieties in Quantum Chemistry</a> (with Fabian Faulstich and Bernd Sturmfels), 25pp, submitted to <em>Foundations of Computational Mathematics</em>.
+          </li>
+          <li>
+            <a href="https://arxiv.org/abs/2208.14631">Four-Dimensional Lie Algebras Revisited</a> (with Laurent Manivel and Bernd Sturmfels), <em>Journal of Lie Theory</em> <b>33</b> (2023) 703-712.
+          </li>
+        </ul>
+      </div>
+      <div class="section activities col-12">
+        <h2>Activities</h2>
+        <ul>
+          <li>
+            September - November 2023: Studying for my Qualifying Exams on November 29th. My topics are Combinatorics, 
+            Metric Algebraic Geometry and a minor topic Commutative Algeba. <a href="media/Qualifying_Syllabus.pdf">Syllabus</a>
+           </li>
+          <li>
+            July 4th - July 6th 2023: Visiting University of Osnabrück (Osnabrück, Germany).
+           </li>
+          <li>
+           June - July 2023: Visit to Max Planck Institute for Mathematics in the Sciences (Leipzig, Germany).
+          </li>
+          <li>
+            May 28th - June 2nd 2023: <a href="https://www.mfo.de/occasion/2322b/www_view">Oberwolfach Seminar: Metric Algebraic Geometry</a>.
+          </li>
+          <li>
+           June - August 2022: Visit to Max Planck Institute for Mathematics in the Sciences (Leipzig, Germany).
+          </li>
+        </ul>
+      </div>
+      <div class="section teaching col-12">
+        <h2>Teaching</h2>
+        <ul>
+          <li>
+            <p>Fall 2023: MATH54.</p>
+            <em>Teaching assistant, Instructor: <a href="https://math.berkeley.edu/~stankova/">Zvezdelina Stankova</a>.</em>
+          </li>
+          <li>
+            <p>Spring 2023: MATH54.</p>
+            <em>Teaching assistant, Instructor: <a href="https://sites.google.com/view/normansheu/">Norman Sheu</a>.</em>
+          </li>
+          <li>
+            <p>Fall 2021: Honors Linear Algebra.</p>
+            <em>Teaching assistant, Instructor: <a href="https://english.hi.is/staff/roggi">Rögnvaldur Möller</a>.</em>
+          </li>
+          <li>
+            <p>Spring 2021: Probability and Statistics.</p>
+            <em>Teaching assistant, Instructor: <a href="https://english.hi.is/staff/hermann">Hermann Þórisson</a>.</em>
+          </li>
+          <li>
+            <p>Fall 2020: Mathematical Analysis I.</p>
+            <em>Teaching assistant, Instructor: <a href="https://english.hi.is/staff/bsm">Benedikt Steinar Magnússon</a>.</em>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>

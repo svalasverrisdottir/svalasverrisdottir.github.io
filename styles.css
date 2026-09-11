@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reiknum stærð á öllum boxum sem border-box */
+html {
+  box-sizing: border-box;
+}
+/* og látum erfast á allt */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-display: swap;
+  src: url('Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: 600;
+  font-display: swap;
+  src: url('Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+}
+
+.grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+@media(max-width: 370px) {
+  .grid-sm {
+    column-gap: 0px;
+  }
+}
+
+.col-12 {
+  grid-column: span 12;
+}
+
+.col-sm-12 {
+  grid-column: span 12;
+}
+
+@media(min-width: 600px) {
+  .col-8 {
+    grid-column: span 8;
+  }
+
+  .col-4 {
+    grid-column: span 4;
+  }
+
+}
+
+body {
+  width: calc(100% - 2*20px);
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Inter', Helvetica, Arial, sans-serif;
+  color: #555;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
+  margin-top: 2em;
+}
+
+nav ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+nav li {
+  display: inline;
+  margin: 1em;
+}
+
+nav a {
+  color:  #1d1e30;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+  color: #1d1e30;
+}
+
+.section {
+  width: 100%;
+}
+
+.section h2, h3, h4 {
+  margin-bottom: 1em;
+}
+
+.section > p {
+  margin-bottom: 1em;
+}
+
+ul {
+  list-style: none;
+}
+
+.teaching > ul > li {
+  margin-bottom: 1em;
+}
+
+.teaching > ul > li > p {
+  display: inline-block;
+  font-size: inherit;
+}
+
+.teaching > ul > li > div > p {
+  display: inline-block;
+  font-size: inherit;
+}
+
+.teaching > ul > li > div {
+  margin-bottom: 0.5em;
+}
+
+.teaching > ul > li > .role {
+  word-break:break-all;
+  font-style: italic;
+}
+
+.teaching > ul > li > .instructor {
+  font-style: italic;
+}
+
+
+.research > ul > li {
+  margin-bottom: 1em;
+}
+
+.research > ul > li > p {
+  display: inline-block;
+  font-size: inherit;
+}
+
+.research > ul > li > .journal {
+  font-style: italic;
+}
+
+.research > ul > li > .volume {
+  font-weight: bold;
+}
+
+.activities > ul > li > p {
+  display: inline-block;
+  font-size: inherit;
+}
+
+.activities > ul:not(:last-child) > li {
+  margin-bottom: 1em;
+}
+.activities > ul:last-child > li:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.activities > ul > li > .date {
+  font-weight: 500;
+}
+
+.activities > ul > li > .location {
+  font-style: italic;
+}
+
+
+.schedule > ul:not(:last-child) > li {
+  margin-bottom: 1em;
+}
+.schedule > ul:last-child > li:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.schedule > ul > li > p {
+  display: inline-block;
+  font-size: inherit;
+}
+
+.schedule > ul > li > .date {
+  font-weight: bold;
+}
+
+.schedule > ul > li > .author {
+  font-style: italic;
+}
